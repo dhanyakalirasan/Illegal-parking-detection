@@ -1,0 +1,111 @@
+.report-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+}
+
+.report-container h2 {
+  margin-bottom: 24px;
+}
+
+/* Progress Indicator */
+.progress-container {
+  margin-bottom: 32px;
+}
+
+.progress-container p {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--border-color);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+/* Wizard Steps */
+.wizard-step {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.wizard-step h3 {
+  margin-bottom: 16px;
+}
+
+.helper-text {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.upload-area {
+  border: 2px dashed var(--border-color);
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.02);
+  margin-bottom: 24px;
+  transition: var(--transition);
+}
+
+.upload-area:hover {
+  border-color: var(--primary);
+  background-color: rgba(79, 70, 229, 0.02);
+}
+
+.upload-area p {
+  margin-bottom: 16px;
+  color: var(--text-muted);
+}
+
+/* Actions */
+.step-actions {
+  display: flex;
+  margin-top: 32px;
+}
+
+.step-actions.split {
+  justify-content: space-between;
+}
+
+.step-actions.right {
+  justify-content: flex-end;
+}
+
+.mt-16 { margin-top: 16px; }
+.btn-full { width: 100%; }
+
+.success-message {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Phase 19: Responsive UI Polishing */
+@media (max-width: 768px) {
+  .report-container {
+    margin: 16px;
+    padding: 16px;
+  }
+  
+  .step-actions.split {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .step-actions.split button {
+    width: 100%;
+  }
+}

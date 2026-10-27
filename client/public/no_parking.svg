@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Car Silhouette -->
+  <path d="M 25,60 Q 30,45 40,40 L 60,40 Q 70,45 75,60 L 80,65 Q 85,65 85,70 L 15,70 Q 15,65 20,65 Z" fill="black"/>
+  <circle cx="30" cy="70" r="7" fill="black"/>
+  <circle cx="70" cy="70" r="7" fill="black"/>
+  <circle cx="30" cy="70" r="3" fill="white"/>
+  <circle cx="70" cy="70" r="3" fill="white"/>
+  <path d="M 35,40 Q 40,30 50,30 Q 60,30 65,40" fill="none" stroke="black" stroke-width="5"/>
+  
+  <!-- Red Circle and Slash -->
+  <circle cx="50" cy="45" r="40" fill="none" stroke="red" stroke-width="8"/>
+  <line x1="20" y1="70" x2="80" y2="20" stroke="red" stroke-width="8"/>
+  
+  <!-- Text -->
+  <text x="50" y="98" font-family="sans-serif" font-weight="bold" font-size="14" text-anchor="middle" fill="red">NO PARKING</text>
+</svg>
